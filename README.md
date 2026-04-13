@@ -1,4 +1,4 @@
-# Personal Budget Tracker (React + Vite)
+# Expense Tracker
 
 A simple single-page budget tracking app where you can add **expenses** and **income**, see your **total balance**, and browse your transactions.
 
@@ -12,28 +12,9 @@ A simple single-page budget tracking app where you can add **expenses** and **in
 - **Light/Dark** theme toggle
 - Browser persistence (localStorage) — no backend yet
 
-## Tech Stack
-
-- React + Vite
-- ESLint
-- Persistence: localStorage (via the `useLocalStorageState` hook)
-
-## Requirements
-
-- Node.js 18/20/22 LTS (recommended)
-- npm
-
 ## Run Locally
 
 ```bash
 npm install
 npm run dev
-```
-
-Other useful commands:
-
-```bash
-npm run build
-npm run preview
-npm run lint
 ```
